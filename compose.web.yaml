@@ -1,0 +1,13 @@
+services:
+  dispatcher-web:
+    image: dispatcher-web:local
+    build:
+      context: .
+      dockerfile: DispatcherWeb/Dockerfile
+    container_name: dispatcher-web
+    init: true
+    restart: unless-stopped
+    depends_on:
+      - dispatcher-server
+    ports:
+      - "127.0.0.1:8081:80"

@@ -1,0 +1,30 @@
+﻿
+services:
+  dispatcher-server:
+    image: dispatcher-server:local
+    build:
+      context: .
+      dockerfile: DispatcherProj/DispatcherServer.Api/Dockerfile
+    container_name: dispatcher-server
+    init: true
+    restart: "no"
+    stop_grace_period: 20s
+
+    environment:
+      ASPNETCORE_HTTP_PORTS: "8080"
+      RabbitMq__HostName: rabbitmq
+      RabbitMq__Port: "5672"
+      RabbitMq__UserName: dispatcher
+      RabbitMq__Password: ${RABBITMQ_PASSWORD:?Password required}
+      RabbitMq__VirtualHost: /
+      RabbitMq__ExchangeName: aircraft.events
+      RabbitMq__QueueName: dispatcher.telemetry
+      RabbitMq__RoutingKey: aircraft.*.telemetry
+      ConnectionStrings__DispatcherDb: "Server=host.docker.internal,1433;Database=DispatcherDB;User Id=dispatcher_app;Password=${SQLSERVER_PASSWORD:?Set SQLSERVER_PASSWORD in .env};Encrypt=True;TrustServerCertificate=True;"
+
+    ports:
+      - "127.0.0.1:8080:8080"
+
+    depends_on:
+      rabbitmq:
+        condition: service_healthy

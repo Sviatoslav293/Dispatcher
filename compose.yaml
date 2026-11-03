@@ -1,0 +1,127 @@
+﻿x-aircraft-base: &aircraft-base
+  image: aircraft-simulator:local
+  build:
+    context: .
+    dockerfile: Dockerfile
+  init: true
+  restart: "no"
+  stop_grace_period: 20s
+
+x-rabbitmq-settings: &rabbitmq-settings
+  Telemetry__Publisher: RabbitMq
+  RabbitMq__HostName: rabbitmq
+  RabbitMq__Port: "5672"
+  RabbitMq__UserName: dispatcher
+  RabbitMq__Password: ${RABBITMQ_PASSWORD:?Set RABBITMQ_PASSWORD in .env}
+  RabbitMq__VirtualHost: /
+  RabbitMq__ExchangeName: aircraft.events
+
+services:
+  aircraft-1001:
+    <<: *aircraft-base
+    container_name: aircraft-1001
+    environment:
+      <<: *rabbitmq-settings
+      AircraftConfiguration__Path: /app/config/aircraft-1001.json
+      Commands__Enabled: "true"
+      Commands__ManualHeadingDuration: "00:00:15"
+      Commands__MinimumAltitudeMeters: "0"
+      Commands__MaximumAltitudeMeters: "12000"
+      Commands__MaximumSpeedKmh: "800"
+    depends_on:
+      rabbitmq:
+        condition: service_healthy
+    volumes:
+      - type: bind
+        source: ./docker/config/aircraft-1001.json
+        target: /app/config/aircraft-1001.json
+        read_only: true
+
+  aircraft-1002:
+    <<: *aircraft-base
+    container_name: aircraft-1002
+    environment:
+      <<: *rabbitmq-settings
+      AircraftConfiguration__Path: /app/config/aircraft-1002.json
+      Commands__Enabled: "true"
+      Commands__ManualHeadingDuration: "00:00:15"
+      Commands__MinimumAltitudeMeters: "0"
+      Commands__MaximumAltitudeMeters: "12000"
+      Commands__MaximumSpeedKmh: "800"
+    depends_on:
+      rabbitmq:
+        condition: service_healthy
+    volumes:
+      - type: bind
+        source: ./docker/config/aircraft-1002.json
+        target: /app/config/aircraft-1002.json
+        read_only: true
+
+  aircraft-1003:
+    <<: *aircraft-base
+    container_name: aircraft-1003
+    environment:
+      <<: *rabbitmq-settings
+      AircraftConfiguration__Path: /app/config/aircraft-1003.json
+    depends_on:
+      rabbitmq:
+        condition: service_healthy
+    volumes:
+      - type: bind
+        source: ./docker/config/aircraft-1003.json
+        target: /app/config/aircraft-1003.json
+        read_only: true
+
+  aircraft-rabbitmq-test:
+    <<: *aircraft-base
+    container_name: aircraft-rabbitmq-test
+    profiles:
+      - test
+    environment:
+      <<: *rabbitmq-settings
+      AircraftConfiguration__Path: /app/config/aircraft-rabbitmq-test.json
+      Commands__Enabled: "true"
+      Commands__ManualHeadingDuration: "00:00:15"
+      Commands__MinimumAltitudeMeters: "0"
+      Commands__MaximumAltitudeMeters: "12000"
+      Commands__MaximumSpeedKmh: "450"
+      Movement__TargetSpeedKmh: "450"
+      Movement__AccelerationKmhPerSecond: "15"
+      Movement__MaximumTurnDegreesPerSecond: "10"
+      Movement__ClimbRateMetersPerSecond: "10"
+      Movement__DecelerationKmhPerSecond: "30"
+      Navigation__WaypointArrivalRadiusMeters: "100"
+      Navigation__MaximumTurnRadiusCaptureFactor: "1.25"
+      Navigation__ApproachDistanceMeters: "1500"
+      Navigation__MinimumApproachSpeedKmh: "120"
+    depends_on:
+      rabbitmq:
+        condition: service_healthy
+    volumes:
+      - type: bind
+        source: ./docker/config/aircraft-rabbitmq-test.json
+        target: /app/config/aircraft-rabbitmq-test.json
+        read_only: true
+
+  rabbitmq:
+    image: rabbitmq:4-management
+    container_name: rabbitmq
+    hostname: rabbitmq
+    restart: unless-stopped
+    ports:
+      - "127.0.0.1:5672:5672"
+      - "127.0.0.1:15672:15672"
+    environment:
+      RABBITMQ_DEFAULT_USER: dispatcher
+      RABBITMQ_DEFAULT_PASS: ${RABBITMQ_PASSWORD:?Set password in .env}
+    volumes:
+      - rabbitmq_data:/var/lib/rabbitmq
+    healthcheck:
+      test: ["CMD", "rabbitmq-diagnostics", "-q", "ping"]
+      interval: 10s
+      timeout: 5s
+      retries: 10
+
+
+volumes:
+  rabbitmq_data:

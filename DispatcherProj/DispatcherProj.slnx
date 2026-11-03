@@ -1,1 +1,8 @@
-<Solution />
+<Solution>
+  <Project Path="DispatcherServer.Core/DispatcherServer.Core.csproj" />
+  <Project Path="DispatcherServer.Plugins/DispatcherServer.Plugins.csproj" />
+  <Project Path="DispatcherServer.Messaging/DispatcherServer.Messaging.csproj" />
+  <Project Path="DispatcherServer.Persistence/DispatcherServer.Persistence.csproj" />
+  <Project Path="DispatcherServer.Api/DispatcherServer.Api.csproj" />
+  <Project Path="DispatcherServer.Tests/DispatcherServer.Tests.csproj" />
+</Solution>

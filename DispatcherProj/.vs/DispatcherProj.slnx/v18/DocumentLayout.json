@@ -1,12 +1,360 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "D:\\Coding\\Projects\\Dispatcher\\DispatcherProj\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{03E55367-41EA-74BF-72F8-9DD402B4DDE3}|DispatcherServer.Core\\DispatcherServer.Core.csproj|d:\\coding\\projects\\dispatcher\\dispatcherproj\\dispatcherserver.core\\aircraftcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{03E55367-41EA-74BF-72F8-9DD402B4DDE3}|DispatcherServer.Core\\DispatcherServer.Core.csproj|solutionrelative:dispatcherserver.core\\aircraftcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{03E55367-41EA-74BF-72F8-9DD402B4DDE3}|DispatcherServer.Core\\DispatcherServer.Core.csproj|d:\\coding\\projects\\dispatcher\\dispatcherproj\\dispatcherserver.core\\aircraftcommandrequested.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{03E55367-41EA-74BF-72F8-9DD402B4DDE3}|DispatcherServer.Core\\DispatcherServer.Core.csproj|solutionrelative:dispatcherserver.core\\aircraftcommandrequested.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{03E55367-41EA-74BF-72F8-9DD402B4DDE3}|DispatcherServer.Core\\DispatcherServer.Core.csproj|d:\\coding\\projects\\dispatcher\\dispatcherproj\\dispatcherserver.core\\aircraftcommandresultreceived.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{03E55367-41EA-74BF-72F8-9DD402B4DDE3}|DispatcherServer.Core\\DispatcherServer.Core.csproj|solutionrelative:dispatcherserver.core\\aircraftcommandresultreceived.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{03E55367-41EA-74BF-72F8-9DD402B4DDE3}|DispatcherServer.Core\\DispatcherServer.Core.csproj|d:\\coding\\projects\\dispatcher\\dispatcherproj\\dispatcherserver.core\\iaircraftcommandpublisher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{03E55367-41EA-74BF-72F8-9DD402B4DDE3}|DispatcherServer.Core\\DispatcherServer.Core.csproj|solutionrelative:dispatcherserver.core\\iaircraftcommandpublisher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{03E55367-41EA-74BF-72F8-9DD402B4DDE3}|DispatcherServer.Core\\DispatcherServer.Core.csproj|d:\\coding\\projects\\dispatcher\\dispatcherproj\\dispatcherserver.core\\persistence\\iatccommandrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{03E55367-41EA-74BF-72F8-9DD402B4DDE3}|DispatcherServer.Core\\DispatcherServer.Core.csproj|solutionrelative:dispatcherserver.core\\persistence\\iatccommandrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{718C5670-4421-FA5F-89A8-A2C4D0F8DDC8}|DispatcherServer.Persistence\\DispatcherServer.Persistence.csproj|d:\\coding\\projects\\dispatcher\\dispatcherproj\\dispatcherserver.persistence\\entities\\atccommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{718C5670-4421-FA5F-89A8-A2C4D0F8DDC8}|DispatcherServer.Persistence\\DispatcherServer.Persistence.csproj|solutionrelative:dispatcherserver.persistence\\entities\\atccommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{718C5670-4421-FA5F-89A8-A2C4D0F8DDC8}|DispatcherServer.Persistence\\DispatcherServer.Persistence.csproj|d:\\coding\\projects\\dispatcher\\dispatcherproj\\dispatcherserver.persistence\\dispatcherdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{718C5670-4421-FA5F-89A8-A2C4D0F8DDC8}|DispatcherServer.Persistence\\DispatcherServer.Persistence.csproj|solutionrelative:dispatcherserver.persistence\\dispatcherdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{718C5670-4421-FA5F-89A8-A2C4D0F8DDC8}|DispatcherServer.Persistence\\DispatcherServer.Persistence.csproj|d:\\coding\\projects\\dispatcher\\dispatcherproj\\dispatcherserver.persistence\\repositories\\atccommandrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{718C5670-4421-FA5F-89A8-A2C4D0F8DDC8}|DispatcherServer.Persistence\\DispatcherServer.Persistence.csproj|solutionrelative:dispatcherserver.persistence\\repositories\\atccommandrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{718C5670-4421-FA5F-89A8-A2C4D0F8DDC8}|DispatcherServer.Persistence\\DispatcherServer.Persistence.csproj|d:\\coding\\projects\\dispatcher\\dispatcherproj\\dispatcherserver.persistence\\dependencyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{718C5670-4421-FA5F-89A8-A2C4D0F8DDC8}|DispatcherServer.Persistence\\DispatcherServer.Persistence.csproj|solutionrelative:dispatcherserver.persistence\\dependencyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7A274CB4-EC70-64C2-063E-465BA3471C96}|DispatcherServer.Plugins\\DispatcherServer.Plugins.csproj|d:\\coding\\projects\\dispatcher\\dispatcherproj\\dispatcherserver.plugins\\aircraftcommandmodule.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7A274CB4-EC70-64C2-063E-465BA3471C96}|DispatcherServer.Plugins\\DispatcherServer.Plugins.csproj|solutionrelative:dispatcherserver.plugins\\aircraftcommandmodule.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7A274CB4-EC70-64C2-063E-465BA3471C96}|DispatcherServer.Plugins\\DispatcherServer.Plugins.csproj|d:\\coding\\projects\\dispatcher\\dispatcherproj\\dispatcherserver.plugins\\dispatcherserver.plugins.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{7A274CB4-EC70-64C2-063E-465BA3471C96}|DispatcherServer.Plugins\\DispatcherServer.Plugins.csproj|solutionrelative:dispatcherserver.plugins\\dispatcherserver.plugins.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{117EEAE5-399F-1B93-22DA-2CC03D0B7EDC}|DispatcherServer.Messaging\\DispatcherServer.Messaging.csproj|d:\\coding\\projects\\dispatcher\\dispatcherproj\\dispatcherserver.messaging\\rabbitmqaircraftcommandpublisher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{117EEAE5-399F-1B93-22DA-2CC03D0B7EDC}|DispatcherServer.Messaging\\DispatcherServer.Messaging.csproj|solutionrelative:dispatcherserver.messaging\\rabbitmqaircraftcommandpublisher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{117EEAE5-399F-1B93-22DA-2CC03D0B7EDC}|DispatcherServer.Messaging\\DispatcherServer.Messaging.csproj|d:\\coding\\projects\\dispatcher\\dispatcherproj\\dispatcherserver.messaging\\aircraftcommandresultconsumerhostedservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{117EEAE5-399F-1B93-22DA-2CC03D0B7EDC}|DispatcherServer.Messaging\\DispatcherServer.Messaging.csproj|solutionrelative:dispatcherserver.messaging\\aircraftcommandresultconsumerhostedservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D88C337C-D7D0-F3E7-10DE-CA16DCD351EC}|DispatcherServer.Api\\DispatcherServer.Api.csproj|d:\\coding\\projects\\dispatcher\\dispatcherproj\\dispatcherserver.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D88C337C-D7D0-F3E7-10DE-CA16DCD351EC}|DispatcherServer.Api\\DispatcherServer.Api.csproj|solutionrelative:dispatcherserver.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Coding\\Projects\\Dispatcher\\DispatcherProj\\Database\\alter-atccommands-command-id.sql||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Database\\alter-atccommands-command-id.sql||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FF232582-F2BE-C7DD-22F9-0B922751254A}|DispatcherServer.Tests\\DispatcherServer.Tests.csproj|d:\\coding\\projects\\dispatcher\\dispatcherproj\\dispatcherserver.tests\\fakecommandservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FF232582-F2BE-C7DD-22F9-0B922751254A}|DispatcherServer.Tests\\DispatcherServer.Tests.csproj|solutionrelative:dispatcherserver.tests\\fakecommandservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FF232582-F2BE-C7DD-22F9-0B922751254A}|DispatcherServer.Tests\\DispatcherServer.Tests.csproj|d:\\coding\\projects\\dispatcher\\dispatcherproj\\dispatcherserver.tests\\dispatcherapifactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FF232582-F2BE-C7DD-22F9-0B922751254A}|DispatcherServer.Tests\\DispatcherServer.Tests.csproj|solutionrelative:dispatcherserver.tests\\dispatcherapifactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FF232582-F2BE-C7DD-22F9-0B922751254A}|DispatcherServer.Tests\\DispatcherServer.Tests.csproj|d:\\coding\\projects\\dispatcher\\dispatcherproj\\dispatcherserver.tests\\fakerepositories.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FF232582-F2BE-C7DD-22F9-0B922751254A}|DispatcherServer.Tests\\DispatcherServer.Tests.csproj|solutionrelative:dispatcherserver.tests\\fakerepositories.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FF232582-F2BE-C7DD-22F9-0B922751254A}|DispatcherServer.Tests\\DispatcherServer.Tests.csproj|d:\\coding\\projects\\dispatcher\\dispatcherproj\\dispatcherserver.tests\\dispatcherschematests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FF232582-F2BE-C7DD-22F9-0B922751254A}|DispatcherServer.Tests\\DispatcherServer.Tests.csproj|solutionrelative:dispatcherserver.tests\\dispatcherschematests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FF232582-F2BE-C7DD-22F9-0B922751254A}|DispatcherServer.Tests\\DispatcherServer.Tests.csproj|d:\\coding\\projects\\dispatcher\\dispatcherproj\\dispatcherserver.tests\\aircraftcommandtests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FF232582-F2BE-C7DD-22F9-0B922751254A}|DispatcherServer.Tests\\DispatcherServer.Tests.csproj|solutionrelative:dispatcherserver.tests\\aircraftcommandtests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
-      "DocumentGroups": []
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 6,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "DispatcherDbContext.cs",
+              "DocumentMoniker": "D:\\Coding\\Projects\\Dispatcher\\DispatcherProj\\DispatcherServer.Persistence\\DispatcherDbContext.cs",
+              "RelativeDocumentMoniker": "DispatcherServer.Persistence\\DispatcherDbContext.cs",
+              "ToolTip": "D:\\Coding\\Projects\\Dispatcher\\DispatcherProj\\DispatcherServer.Persistence\\DispatcherDbContext.cs",
+              "RelativeToolTip": "DispatcherServer.Persistence\\DispatcherDbContext.cs",
+              "ViewState": "AgIAAEcAAAAAAAAAAIBJwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-03T07:00:02.541Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "AtcCommand.cs",
+              "DocumentMoniker": "D:\\Coding\\Projects\\Dispatcher\\DispatcherProj\\DispatcherServer.Persistence\\Entities\\AtcCommand.cs",
+              "RelativeDocumentMoniker": "DispatcherServer.Persistence\\Entities\\AtcCommand.cs",
+              "ToolTip": "D:\\Coding\\Projects\\Dispatcher\\DispatcherProj\\DispatcherServer.Persistence\\Entities\\AtcCommand.cs",
+              "RelativeToolTip": "DispatcherServer.Persistence\\Entities\\AtcCommand.cs",
+              "ViewState": "AgIAAAQAAAAAAAAAAIBWwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-03T07:00:02.5Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "IAtcCommandRepository.cs",
+              "DocumentMoniker": "D:\\Coding\\Projects\\Dispatcher\\DispatcherProj\\DispatcherServer.Core\\Persistence\\IAtcCommandRepository.cs",
+              "RelativeDocumentMoniker": "DispatcherServer.Core\\Persistence\\IAtcCommandRepository.cs",
+              "ToolTip": "D:\\Coding\\Projects\\Dispatcher\\DispatcherProj\\DispatcherServer.Core\\Persistence\\IAtcCommandRepository.cs",
+              "RelativeToolTip": "DispatcherServer.Core\\Persistence\\IAtcCommandRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-03T06:59:31.108Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "IAircraftCommandPublisher.cs",
+              "DocumentMoniker": "D:\\Coding\\Projects\\Dispatcher\\DispatcherProj\\DispatcherServer.Core\\IAircraftCommandPublisher.cs",
+              "RelativeDocumentMoniker": "DispatcherServer.Core\\IAircraftCommandPublisher.cs",
+              "ToolTip": "D:\\Coding\\Projects\\Dispatcher\\DispatcherProj\\DispatcherServer.Core\\IAircraftCommandPublisher.cs",
+              "RelativeToolTip": "DispatcherServer.Core\\IAircraftCommandPublisher.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-03T06:59:27.972Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "AircraftCommandResultReceived.cs",
+              "DocumentMoniker": "D:\\Coding\\Projects\\Dispatcher\\DispatcherProj\\DispatcherServer.Core\\AircraftCommandResultReceived.cs",
+              "RelativeDocumentMoniker": "DispatcherServer.Core\\AircraftCommandResultReceived.cs",
+              "ToolTip": "D:\\Coding\\Projects\\Dispatcher\\DispatcherProj\\DispatcherServer.Core\\AircraftCommandResultReceived.cs",
+              "RelativeToolTip": "DispatcherServer.Core\\AircraftCommandResultReceived.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAIBJwAUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-03T06:59:25.23Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "AircraftCommandRequested.cs",
+              "DocumentMoniker": "D:\\Coding\\Projects\\Dispatcher\\DispatcherProj\\DispatcherServer.Core\\AircraftCommandRequested.cs",
+              "RelativeDocumentMoniker": "DispatcherServer.Core\\AircraftCommandRequested.cs",
+              "ToolTip": "D:\\Coding\\Projects\\Dispatcher\\DispatcherProj\\DispatcherServer.Core\\AircraftCommandRequested.cs",
+              "RelativeToolTip": "DispatcherServer.Core\\AircraftCommandRequested.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-03T06:59:22.955Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "AircraftCommand.cs",
+              "DocumentMoniker": "D:\\Coding\\Projects\\Dispatcher\\DispatcherProj\\DispatcherServer.Core\\AircraftCommand.cs",
+              "RelativeDocumentMoniker": "DispatcherServer.Core\\AircraftCommand.cs",
+              "ToolTip": "D:\\Coding\\Projects\\Dispatcher\\DispatcherProj\\DispatcherServer.Core\\AircraftCommand.cs",
+              "RelativeToolTip": "DispatcherServer.Core\\AircraftCommand.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-03T06:59:11.839Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "AircraftCommandTests.cs",
+              "DocumentMoniker": "D:\\Coding\\Projects\\Dispatcher\\DispatcherProj\\DispatcherServer.Tests\\AircraftCommandTests.cs",
+              "RelativeDocumentMoniker": "DispatcherServer.Tests\\AircraftCommandTests.cs",
+              "ToolTip": "D:\\Coding\\Projects\\Dispatcher\\DispatcherProj\\DispatcherServer.Tests\\AircraftCommandTests.cs",
+              "RelativeToolTip": "DispatcherServer.Tests\\AircraftCommandTests.cs",
+              "ViewState": "AgIAAC4AAAAAAAAAAIBHwNkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-03T07:07:03.058Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "DispatcherSchemaTests.cs",
+              "DocumentMoniker": "D:\\Coding\\Projects\\Dispatcher\\DispatcherProj\\DispatcherServer.Tests\\DispatcherSchemaTests.cs",
+              "RelativeDocumentMoniker": "DispatcherServer.Tests\\DispatcherSchemaTests.cs",
+              "ToolTip": "D:\\Coding\\Projects\\Dispatcher\\DispatcherProj\\DispatcherServer.Tests\\DispatcherSchemaTests.cs",
+              "RelativeToolTip": "DispatcherServer.Tests\\DispatcherSchemaTests.cs",
+              "ViewState": "AgIAADgAAAAAAAAAAABBwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-03T07:06:30.526Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "FakeRepositories.cs",
+              "DocumentMoniker": "D:\\Coding\\Projects\\Dispatcher\\DispatcherProj\\DispatcherServer.Tests\\FakeRepositories.cs",
+              "RelativeDocumentMoniker": "DispatcherServer.Tests\\FakeRepositories.cs",
+              "ToolTip": "D:\\Coding\\Projects\\Dispatcher\\DispatcherProj\\DispatcherServer.Tests\\FakeRepositories.cs",
+              "RelativeToolTip": "DispatcherServer.Tests\\FakeRepositories.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAABQwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-03T07:06:30.465Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "DispatcherApiFactory.cs",
+              "DocumentMoniker": "D:\\Coding\\Projects\\Dispatcher\\DispatcherProj\\DispatcherServer.Tests\\DispatcherApiFactory.cs",
+              "RelativeDocumentMoniker": "DispatcherServer.Tests\\DispatcherApiFactory.cs",
+              "ToolTip": "D:\\Coding\\Projects\\Dispatcher\\DispatcherProj\\DispatcherServer.Tests\\DispatcherApiFactory.cs",
+              "RelativeToolTip": "DispatcherServer.Tests\\DispatcherApiFactory.cs",
+              "ViewState": "AgIAABwAAAAAAAAAAABBwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-03T07:06:30.402Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "FakeCommandServices.cs",
+              "DocumentMoniker": "D:\\Coding\\Projects\\Dispatcher\\DispatcherProj\\DispatcherServer.Tests\\FakeCommandServices.cs",
+              "RelativeDocumentMoniker": "DispatcherServer.Tests\\FakeCommandServices.cs",
+              "ToolTip": "D:\\Coding\\Projects\\Dispatcher\\DispatcherProj\\DispatcherServer.Tests\\FakeCommandServices.cs",
+              "RelativeToolTip": "DispatcherServer.Tests\\FakeCommandServices.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAJYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-03T07:06:23.298Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "alter-atccommands-command-id.sql",
+              "DocumentMoniker": "D:\\Coding\\Projects\\Dispatcher\\DispatcherProj\\Database\\alter-atccommands-command-id.sql",
+              "RelativeDocumentMoniker": "Database\\alter-atccommands-command-id.sql",
+              "ToolTip": "D:\\Coding\\Projects\\Dispatcher\\DispatcherProj\\Database\\alter-atccommands-command-id.sql",
+              "RelativeToolTip": "Database\\alter-atccommands-command-id.sql",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2026-11-03T07:06:01.282Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\Coding\\Projects\\Dispatcher\\DispatcherProj\\DispatcherServer.Api\\Program.cs",
+              "RelativeDocumentMoniker": "DispatcherServer.Api\\Program.cs",
+              "ToolTip": "D:\\Coding\\Projects\\Dispatcher\\DispatcherProj\\DispatcherServer.Api\\Program.cs",
+              "RelativeToolTip": "DispatcherServer.Api\\Program.cs",
+              "ViewState": "AgIAABkAAAAAAAAAAIBJwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-03T07:05:09.705Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "AircraftCommandResultConsumerHostedService.cs",
+              "DocumentMoniker": "D:\\Coding\\Projects\\Dispatcher\\DispatcherProj\\DispatcherServer.Messaging\\AircraftCommandResultConsumerHostedService.cs",
+              "RelativeDocumentMoniker": "DispatcherServer.Messaging\\AircraftCommandResultConsumerHostedService.cs",
+              "ToolTip": "D:\\Coding\\Projects\\Dispatcher\\DispatcherProj\\DispatcherServer.Messaging\\AircraftCommandResultConsumerHostedService.cs",
+              "RelativeToolTip": "DispatcherServer.Messaging\\AircraftCommandResultConsumerHostedService.cs",
+              "ViewState": "AgIAAGMAAAAAAAAAAIBJwJEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-03T07:03:35.356Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "RabbitMqAircraftCommandPublisher.cs",
+              "DocumentMoniker": "D:\\Coding\\Projects\\Dispatcher\\DispatcherProj\\DispatcherServer.Messaging\\RabbitMqAircraftCommandPublisher.cs",
+              "RelativeDocumentMoniker": "DispatcherServer.Messaging\\RabbitMqAircraftCommandPublisher.cs",
+              "ToolTip": "D:\\Coding\\Projects\\Dispatcher\\DispatcherProj\\DispatcherServer.Messaging\\RabbitMqAircraftCommandPublisher.cs",
+              "RelativeToolTip": "DispatcherServer.Messaging\\RabbitMqAircraftCommandPublisher.cs",
+              "ViewState": "AgIAAC4AAAAAAAAAAIBJwFQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-03T07:02:43.112Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "DispatcherServer.Plugins",
+              "DocumentMoniker": "D:\\Coding\\Projects\\Dispatcher\\DispatcherProj\\DispatcherServer.Plugins\\DispatcherServer.Plugins.csproj",
+              "RelativeDocumentMoniker": "DispatcherServer.Plugins\\DispatcherServer.Plugins.csproj",
+              "ToolTip": "D:\\Coding\\Projects\\Dispatcher\\DispatcherProj\\DispatcherServer.Plugins\\DispatcherServer.Plugins.csproj",
+              "RelativeToolTip": "DispatcherServer.Plugins\\DispatcherServer.Plugins.csproj",
+              "ViewState": "AgIAAAsAAAAAAAAAAABBwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-11-03T07:01:41.024Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "AircraftCommandModule.cs",
+              "DocumentMoniker": "D:\\Coding\\Projects\\Dispatcher\\DispatcherProj\\DispatcherServer.Plugins\\AircraftCommandModule.cs",
+              "RelativeDocumentMoniker": "DispatcherServer.Plugins\\AircraftCommandModule.cs",
+              "ToolTip": "D:\\Coding\\Projects\\Dispatcher\\DispatcherProj\\DispatcherServer.Plugins\\AircraftCommandModule.cs",
+              "RelativeToolTip": "DispatcherServer.Plugins\\AircraftCommandModule.cs",
+              "ViewState": "AgIAADAAAAAAAAAAAIBJwJkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-03T07:01:34.848Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "DependencyInjection.cs",
+              "DocumentMoniker": "D:\\Coding\\Projects\\Dispatcher\\DispatcherProj\\DispatcherServer.Persistence\\DependencyInjection.cs",
+              "RelativeDocumentMoniker": "DispatcherServer.Persistence\\DependencyInjection.cs",
+              "ToolTip": "D:\\Coding\\Projects\\Dispatcher\\DispatcherProj\\DispatcherServer.Persistence\\DependencyInjection.cs",
+              "RelativeToolTip": "DispatcherServer.Persistence\\DependencyInjection.cs",
+              "ViewState": "AgIAABEAAAAAAAAAAIBJwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-03T07:00:28.089Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "AtcCommandRepository.cs",
+              "DocumentMoniker": "D:\\Coding\\Projects\\Dispatcher\\DispatcherProj\\DispatcherServer.Persistence\\Repositories\\AtcCommandRepository.cs",
+              "RelativeDocumentMoniker": "DispatcherServer.Persistence\\Repositories\\AtcCommandRepository.cs",
+              "ToolTip": "D:\\Coding\\Projects\\Dispatcher\\DispatcherProj\\DispatcherServer.Persistence\\Repositories\\AtcCommandRepository.cs",
+              "RelativeToolTip": "DispatcherServer.Persistence\\Repositories\\AtcCommandRepository.cs",
+              "ViewState": "AgIAACkAAAAAAAAAAIBJwKQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-03T07:00:18.108Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
     }
   ]
 }

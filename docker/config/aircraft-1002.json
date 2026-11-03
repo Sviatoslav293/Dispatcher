@@ -1,0 +1,30 @@
+{
+  "AircraftId": 1002,
+  "FlightId": 251103,
+  "Latitude": 49.8397,
+  "Longitude": 24.0297,
+  "AltitudeMeters": 6800,
+  "SpeedKmh": 620,
+  "HeadingDegrees": 45,
+  "Status": "EnRoute",
+  "Route": [
+    {
+      "Id": 201,
+      "Latitude": 50.7472,
+      "Longitude": 25.3254,
+      "TargetAltitudeMeters": 7800
+    },
+    {
+      "Id": 202,
+      "Latitude": 50.6199,
+      "Longitude": 26.2516,
+      "TargetAltitudeMeters": 9000
+    },
+    {
+      "Id": 203,
+      "Latitude": 50.2547,
+      "Longitude": 28.6587,
+      "TargetAltitudeMeters": 7600
+    }
+  ]
+}

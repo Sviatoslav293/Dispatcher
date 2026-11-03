@@ -1,0 +1,84 @@
+
+# ============================
+# .NET Build
+# ============================
+[Bb]in/
+[Oo]bj/
+[Dd]ebug/
+[Rr]elease/
+artifacts/
+
+# ============================
+# Visual Studio
+# ============================
+.vs/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+*.rsuser
+
+# ============================
+# Visual Studio Code
+# ============================
+.vscode/*
+!.vscode/settings.json
+!.vscode/launch.json
+!.vscode/tasks.json
+!.vscode/extensions.json
+
+# ============================
+# JetBrains Rider / ReSharper
+# ============================
+.idea/
+_ReSharper*/
+*.DotSettings.user
+*.sln.iml
+
+# ============================
+# NuGet
+# ============================
+*.nupkg
+*.snupkg
+packages/
+
+# ============================
+# Logs and test results
+# ============================
+[Ll]ogs/
+*.log
+TestResults/
+*.trx
+*.coverage
+*.coveragexml
+
+# ============================
+# Local configuration / Secrets
+# ============================
+.env
+.env.*
+!.env.example
+
+appsettings.Local.json
+appsettings.*.local.json
+aircraft.local.json
+secrets.json
+
+# ============================
+# Docker local overrides
+# ============================
+compose.override.yaml
+docker-compose.override.yml
+
+# ============================
+# OS temporary files
+# ============================
+.DS_Store
+Thumbs.db
+Desktop.ini
+*.tmp
+*.bak
+*~
+data/*.db
+data/*.db-shm
+data/*.db-wal

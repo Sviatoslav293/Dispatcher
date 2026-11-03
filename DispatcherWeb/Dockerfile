@@ -1,0 +1,12 @@
+FROM nginx:1.27-alpine
+
+WORKDIR /usr/share/nginx/html
+
+COPY DispatcherWeb/index.html ./index.html
+COPY DispatcherWeb/css ./css
+COPY DispatcherWeb/js ./js
+COPY DispatcherWeb/nginx.conf /etc/nginx/conf.d/default.conf
+
+EXPOSE 80
+
+CMD ["nginx", "-g", "daemon off;"]

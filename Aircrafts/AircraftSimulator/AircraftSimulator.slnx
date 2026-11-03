@@ -1,0 +1,6 @@
+<Solution>
+  <Project Path="AircraftSimulator.Core/AircraftSimulator.Core.csproj" />
+  <Project Path="AircraftSimulator.Host/AircraftSimulator.Host.csproj" />
+  <Project Path="AircraftSimulator.Plugins/AircraftSimulator.Plugins.csproj" />
+  <Project Path="AircraftSimulator.Tests/AircraftSimulator.Tests.csproj" />
+</Solution>
