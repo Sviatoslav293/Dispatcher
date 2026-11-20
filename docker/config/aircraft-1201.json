@@ -1,0 +1,30 @@
+{
+  "AircraftId": 1201,
+  "FlightId": 251201,
+  "Latitude": 50.4501,
+  "Longitude": 30.5234,
+  "AltitudeMeters": 3600,
+  "SpeedKmh": 360,
+  "HeadingDegrees": 28,
+  "Status": "EnRoute",
+  "Route": [
+    {
+      "Id": 12011,
+      "Latitude": 50.5,
+      "Longitude": 30.553,
+      "TargetAltitudeMeters": 3900
+    },
+    {
+      "Id": 12012,
+      "Latitude": 50.555,
+      "Longitude": 30.597,
+      "TargetAltitudeMeters": 4100
+    },
+    {
+      "Id": 12013,
+      "Latitude": 50.6,
+      "Longitude": 30.639,
+      "TargetAltitudeMeters": 3800
+    }
+  ]
+}

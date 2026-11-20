@@ -1,0 +1,85 @@
+# Additional services for one-time coursework screenshots.
+# Combine with compose.yaml, compose.server.yaml and compose.web.yaml.
+services:
+  aircraft-1201:
+    image: aircraft-simulator:local
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: aircraft-1201
+    profiles: ["screenshots"]
+    init: true
+    restart: "no"
+    stop_grace_period: 20s
+    environment:
+      Telemetry__Publisher: RabbitMq
+      RabbitMq__HostName: rabbitmq
+      RabbitMq__Port: "5672"
+      RabbitMq__UserName: dispatcher
+      RabbitMq__Password: ${RABBITMQ_PASSWORD:?Set RABBITMQ_PASSWORD in .env}
+      RabbitMq__VirtualHost: /
+      RabbitMq__ExchangeName: aircraft.events
+      AircraftConfiguration__Path: /app/config/aircraft-1201.json
+      Commands__Enabled: "true"
+      Commands__ManualHeadingDuration: "00:00:15"
+      Commands__MinimumAltitudeMeters: "0"
+      Commands__MaximumAltitudeMeters: "12000"
+      Commands__MaximumSpeedKmh: "800"
+      Movement__TargetSpeedKmh: "360"
+      Movement__AccelerationKmhPerSecond: "15"
+      Movement__DecelerationKmhPerSecond: "30"
+      Movement__MaximumTurnDegreesPerSecond: "10"
+      Movement__ClimbRateMetersPerSecond: "10"
+      Navigation__WaypointArrivalRadiusMeters: "130"
+      Navigation__MaximumTurnRadiusCaptureFactor: "1.25"
+      Navigation__ApproachDistanceMeters: "1200"
+      Navigation__MinimumApproachSpeedKmh: "140"
+    depends_on:
+      rabbitmq:
+        condition: service_healthy
+    volumes:
+      - type: bind
+        source: ./docker/config/aircraft-1201.json
+        target: /app/config/aircraft-1201.json
+        read_only: true
+  aircraft-1202:
+    image: aircraft-simulator:local
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: aircraft-1202
+    profiles: ["screenshots"]
+    init: true
+    restart: "no"
+    stop_grace_period: 20s
+    environment:
+      Telemetry__Publisher: RabbitMq
+      RabbitMq__HostName: rabbitmq
+      RabbitMq__Port: "5672"
+      RabbitMq__UserName: dispatcher
+      RabbitMq__Password: ${RABBITMQ_PASSWORD:?Set RABBITMQ_PASSWORD in .env}
+      RabbitMq__VirtualHost: /
+      RabbitMq__ExchangeName: aircraft.events
+      AircraftConfiguration__Path: /app/config/aircraft-1202.json
+      Commands__Enabled: "true"
+      Commands__ManualHeadingDuration: "00:00:15"
+      Commands__MinimumAltitudeMeters: "0"
+      Commands__MaximumAltitudeMeters: "12000"
+      Commands__MaximumSpeedKmh: "800"
+      Movement__TargetSpeedKmh: "340"
+      Movement__AccelerationKmhPerSecond: "15"
+      Movement__DecelerationKmhPerSecond: "30"
+      Movement__MaximumTurnDegreesPerSecond: "10"
+      Movement__ClimbRateMetersPerSecond: "10"
+      Navigation__WaypointArrivalRadiusMeters: "130"
+      Navigation__MaximumTurnRadiusCaptureFactor: "1.25"
+      Navigation__ApproachDistanceMeters: "1200"
+      Navigation__MinimumApproachSpeedKmh: "140"
+    depends_on:
+      rabbitmq:
+        condition: service_healthy
+    volumes:
+      - type: bind
+        source: ./docker/config/aircraft-1202.json
+        target: /app/config/aircraft-1202.json
+        read_only: true

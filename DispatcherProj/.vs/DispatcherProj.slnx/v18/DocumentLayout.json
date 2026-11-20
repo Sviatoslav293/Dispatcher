@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "D:\\Coding\\Projects\\Dispatcher\\DispatcherProj\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{03E55367-41EA-74BF-72F8-9DD402B4DDE3}|DispatcherServer.Core\\DispatcherServer.Core.csproj|d:\\coding\\projects\\dispatcher\\dispatcherproj\\dispatcherserver.core\\servermicrokernel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{03E55367-41EA-74BF-72F8-9DD402B4DDE3}|DispatcherServer.Core\\DispatcherServer.Core.csproj|solutionrelative:dispatcherserver.core\\servermicrokernel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{03E55367-41EA-74BF-72F8-9DD402B4DDE3}|DispatcherServer.Core\\DispatcherServer.Core.csproj|d:\\coding\\projects\\dispatcher\\dispatcherproj\\dispatcherserver.core\\aircraftcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{03E55367-41EA-74BF-72F8-9DD402B4DDE3}|DispatcherServer.Core\\DispatcherServer.Core.csproj|solutionrelative:dispatcherserver.core\\aircraftcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -90,11 +94,24 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 0,
+              "Title": "ServerMicrokernel.cs",
+              "DocumentMoniker": "D:\\Coding\\Projects\\Dispatcher\\DispatcherProj\\DispatcherServer.Core\\ServerMicrokernel.cs",
+              "RelativeDocumentMoniker": "DispatcherServer.Core\\ServerMicrokernel.cs",
+              "ToolTip": "D:\\Coding\\Projects\\Dispatcher\\DispatcherProj\\DispatcherServer.Core\\ServerMicrokernel.cs",
+              "RelativeToolTip": "DispatcherServer.Core\\ServerMicrokernel.cs",
+              "ViewState": "AgIAAEAAAAAAAAAAAAAYwAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-04T13:25:37.002Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
               "Title": "DispatcherDbContext.cs",
               "DocumentMoniker": "D:\\Coding\\Projects\\Dispatcher\\DispatcherProj\\DispatcherServer.Persistence\\DispatcherDbContext.cs",
               "RelativeDocumentMoniker": "DispatcherServer.Persistence\\DispatcherDbContext.cs",
@@ -102,12 +119,11 @@
               "RelativeToolTip": "DispatcherServer.Persistence\\DispatcherDbContext.cs",
               "ViewState": "AgIAAEcAAAAAAAAAAIBJwAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-11-03T07:00:02.541Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-11-03T07:00:02.541Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "AtcCommand.cs",
               "DocumentMoniker": "D:\\Coding\\Projects\\Dispatcher\\DispatcherProj\\DispatcherServer.Persistence\\Entities\\AtcCommand.cs",
               "RelativeDocumentMoniker": "DispatcherServer.Persistence\\Entities\\AtcCommand.cs",
@@ -115,12 +131,11 @@
               "RelativeToolTip": "DispatcherServer.Persistence\\Entities\\AtcCommand.cs",
               "ViewState": "AgIAAAQAAAAAAAAAAIBWwAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-11-03T07:00:02.5Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-11-03T07:00:02.5Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "IAtcCommandRepository.cs",
               "DocumentMoniker": "D:\\Coding\\Projects\\Dispatcher\\DispatcherProj\\DispatcherServer.Core\\Persistence\\IAtcCommandRepository.cs",
               "RelativeDocumentMoniker": "DispatcherServer.Core\\Persistence\\IAtcCommandRepository.cs",
@@ -128,12 +143,11 @@
               "RelativeToolTip": "DispatcherServer.Core\\Persistence\\IAtcCommandRepository.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-11-03T06:59:31.108Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-11-03T06:59:31.108Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "IAircraftCommandPublisher.cs",
               "DocumentMoniker": "D:\\Coding\\Projects\\Dispatcher\\DispatcherProj\\DispatcherServer.Core\\IAircraftCommandPublisher.cs",
               "RelativeDocumentMoniker": "DispatcherServer.Core\\IAircraftCommandPublisher.cs",
@@ -141,12 +155,11 @@
               "RelativeToolTip": "DispatcherServer.Core\\IAircraftCommandPublisher.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-11-03T06:59:27.972Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-11-03T06:59:27.972Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "AircraftCommandResultReceived.cs",
               "DocumentMoniker": "D:\\Coding\\Projects\\Dispatcher\\DispatcherProj\\DispatcherServer.Core\\AircraftCommandResultReceived.cs",
               "RelativeDocumentMoniker": "DispatcherServer.Core\\AircraftCommandResultReceived.cs",
@@ -154,12 +167,11 @@
               "RelativeToolTip": "DispatcherServer.Core\\AircraftCommandResultReceived.cs",
               "ViewState": "AgIAAAMAAAAAAAAAAIBJwAUAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-11-03T06:59:25.23Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-11-03T06:59:25.23Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "AircraftCommandRequested.cs",
               "DocumentMoniker": "D:\\Coding\\Projects\\Dispatcher\\DispatcherProj\\DispatcherServer.Core\\AircraftCommandRequested.cs",
               "RelativeDocumentMoniker": "DispatcherServer.Core\\AircraftCommandRequested.cs",
@@ -167,12 +179,11 @@
               "RelativeToolTip": "DispatcherServer.Core\\AircraftCommandRequested.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-11-03T06:59:22.955Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-11-03T06:59:22.955Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "AircraftCommand.cs",
               "DocumentMoniker": "D:\\Coding\\Projects\\Dispatcher\\DispatcherProj\\DispatcherServer.Core\\AircraftCommand.cs",
               "RelativeDocumentMoniker": "DispatcherServer.Core\\AircraftCommand.cs",
@@ -185,7 +196,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 20,
               "Title": "AircraftCommandTests.cs",
               "DocumentMoniker": "D:\\Coding\\Projects\\Dispatcher\\DispatcherProj\\DispatcherServer.Tests\\AircraftCommandTests.cs",
               "RelativeDocumentMoniker": "DispatcherServer.Tests\\AircraftCommandTests.cs",
@@ -193,12 +204,11 @@
               "RelativeToolTip": "DispatcherServer.Tests\\AircraftCommandTests.cs",
               "ViewState": "AgIAAC4AAAAAAAAAAIBHwNkAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-11-03T07:07:03.058Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-11-03T07:07:03.058Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 19,
               "Title": "DispatcherSchemaTests.cs",
               "DocumentMoniker": "D:\\Coding\\Projects\\Dispatcher\\DispatcherProj\\DispatcherServer.Tests\\DispatcherSchemaTests.cs",
               "RelativeDocumentMoniker": "DispatcherServer.Tests\\DispatcherSchemaTests.cs",
@@ -206,12 +216,11 @@
               "RelativeToolTip": "DispatcherServer.Tests\\DispatcherSchemaTests.cs",
               "ViewState": "AgIAADgAAAAAAAAAAABBwAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-11-03T07:06:30.526Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-11-03T07:06:30.526Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 18,
               "Title": "FakeRepositories.cs",
               "DocumentMoniker": "D:\\Coding\\Projects\\Dispatcher\\DispatcherProj\\DispatcherServer.Tests\\FakeRepositories.cs",
               "RelativeDocumentMoniker": "DispatcherServer.Tests\\FakeRepositories.cs",
@@ -219,12 +228,11 @@
               "RelativeToolTip": "DispatcherServer.Tests\\FakeRepositories.cs",
               "ViewState": "AgIAAAkAAAAAAAAAAABQwAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-11-03T07:06:30.465Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-11-03T07:06:30.465Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 17,
               "Title": "DispatcherApiFactory.cs",
               "DocumentMoniker": "D:\\Coding\\Projects\\Dispatcher\\DispatcherProj\\DispatcherServer.Tests\\DispatcherApiFactory.cs",
               "RelativeDocumentMoniker": "DispatcherServer.Tests\\DispatcherApiFactory.cs",
@@ -232,12 +240,11 @@
               "RelativeToolTip": "DispatcherServer.Tests\\DispatcherApiFactory.cs",
               "ViewState": "AgIAABwAAAAAAAAAAABBwAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-11-03T07:06:30.402Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-11-03T07:06:30.402Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 16,
               "Title": "FakeCommandServices.cs",
               "DocumentMoniker": "D:\\Coding\\Projects\\Dispatcher\\DispatcherProj\\DispatcherServer.Tests\\FakeCommandServices.cs",
               "RelativeDocumentMoniker": "DispatcherServer.Tests\\FakeCommandServices.cs",
@@ -245,12 +252,11 @@
               "RelativeToolTip": "DispatcherServer.Tests\\FakeCommandServices.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAJYAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-11-03T07:06:23.298Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-11-03T07:06:23.298Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 15,
               "Title": "alter-atccommands-command-id.sql",
               "DocumentMoniker": "D:\\Coding\\Projects\\Dispatcher\\DispatcherProj\\Database\\alter-atccommands-command-id.sql",
               "RelativeDocumentMoniker": "Database\\alter-atccommands-command-id.sql",
@@ -258,12 +264,11 @@
               "RelativeToolTip": "Database\\alter-atccommands-command-id.sql",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
-              "WhenOpened": "2026-11-03T07:06:01.282Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-11-03T07:06:01.282Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 14,
               "Title": "Program.cs",
               "DocumentMoniker": "D:\\Coding\\Projects\\Dispatcher\\DispatcherProj\\DispatcherServer.Api\\Program.cs",
               "RelativeDocumentMoniker": "DispatcherServer.Api\\Program.cs",
@@ -271,12 +276,11 @@
               "RelativeToolTip": "DispatcherServer.Api\\Program.cs",
               "ViewState": "AgIAABkAAAAAAAAAAIBJwAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-11-03T07:05:09.705Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-11-03T07:05:09.705Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 13,
               "Title": "AircraftCommandResultConsumerHostedService.cs",
               "DocumentMoniker": "D:\\Coding\\Projects\\Dispatcher\\DispatcherProj\\DispatcherServer.Messaging\\AircraftCommandResultConsumerHostedService.cs",
               "RelativeDocumentMoniker": "DispatcherServer.Messaging\\AircraftCommandResultConsumerHostedService.cs",
@@ -284,12 +288,11 @@
               "RelativeToolTip": "DispatcherServer.Messaging\\AircraftCommandResultConsumerHostedService.cs",
               "ViewState": "AgIAAGMAAAAAAAAAAIBJwJEAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-11-03T07:03:35.356Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-11-03T07:03:35.356Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 12,
               "Title": "RabbitMqAircraftCommandPublisher.cs",
               "DocumentMoniker": "D:\\Coding\\Projects\\Dispatcher\\DispatcherProj\\DispatcherServer.Messaging\\RabbitMqAircraftCommandPublisher.cs",
               "RelativeDocumentMoniker": "DispatcherServer.Messaging\\RabbitMqAircraftCommandPublisher.cs",
@@ -297,25 +300,23 @@
               "RelativeToolTip": "DispatcherServer.Messaging\\RabbitMqAircraftCommandPublisher.cs",
               "ViewState": "AgIAAC4AAAAAAAAAAIBJwFQAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-11-03T07:02:43.112Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-11-03T07:02:43.112Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "DispatcherServer.Plugins",
+              "DocumentIndex": 11,
+              "Title": "DispatcherServer.Plugins.csproj",
               "DocumentMoniker": "D:\\Coding\\Projects\\Dispatcher\\DispatcherProj\\DispatcherServer.Plugins\\DispatcherServer.Plugins.csproj",
               "RelativeDocumentMoniker": "DispatcherServer.Plugins\\DispatcherServer.Plugins.csproj",
               "ToolTip": "D:\\Coding\\Projects\\Dispatcher\\DispatcherProj\\DispatcherServer.Plugins\\DispatcherServer.Plugins.csproj",
               "RelativeToolTip": "DispatcherServer.Plugins\\DispatcherServer.Plugins.csproj",
               "ViewState": "AgIAAAsAAAAAAAAAAABBwAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2026-11-03T07:01:41.024Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-11-03T07:01:41.024Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 10,
               "Title": "AircraftCommandModule.cs",
               "DocumentMoniker": "D:\\Coding\\Projects\\Dispatcher\\DispatcherProj\\DispatcherServer.Plugins\\AircraftCommandModule.cs",
               "RelativeDocumentMoniker": "DispatcherServer.Plugins\\AircraftCommandModule.cs",
@@ -323,12 +324,11 @@
               "RelativeToolTip": "DispatcherServer.Plugins\\AircraftCommandModule.cs",
               "ViewState": "AgIAADAAAAAAAAAAAIBJwJkAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-11-03T07:01:34.848Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-11-03T07:01:34.848Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 9,
               "Title": "DependencyInjection.cs",
               "DocumentMoniker": "D:\\Coding\\Projects\\Dispatcher\\DispatcherProj\\DispatcherServer.Persistence\\DependencyInjection.cs",
               "RelativeDocumentMoniker": "DispatcherServer.Persistence\\DependencyInjection.cs",
@@ -336,12 +336,11 @@
               "RelativeToolTip": "DispatcherServer.Persistence\\DependencyInjection.cs",
               "ViewState": "AgIAABEAAAAAAAAAAIBJwAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-11-03T07:00:28.089Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-11-03T07:00:28.089Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 8,
               "Title": "AtcCommandRepository.cs",
               "DocumentMoniker": "D:\\Coding\\Projects\\Dispatcher\\DispatcherProj\\DispatcherServer.Persistence\\Repositories\\AtcCommandRepository.cs",
               "RelativeDocumentMoniker": "DispatcherServer.Persistence\\Repositories\\AtcCommandRepository.cs",
@@ -349,8 +348,7 @@
               "RelativeToolTip": "DispatcherServer.Persistence\\Repositories\\AtcCommandRepository.cs",
               "ViewState": "AgIAACkAAAAAAAAAAIBJwKQAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-11-03T07:00:18.108Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-11-03T07:00:18.108Z"
             }
           ]
         }
